@@ -33,9 +33,9 @@ becomes
 ```
 ## options
 ### preserve
-If `true` (default), both `:is()` and `:matches()` are kept/added
-If `false`, renames `:matches()` to `:is()`
-If `"matches"`, renames `:is()` to `:matches()`
+* With `{ preserve: true }` (default), both `:is()` and `:matches()` are kept/added
+* With `{ preserve: false }`, renames `:matches()` to `:is()`
+* With `{ preserve: "matches" }`, renames `:is()` to `:matches()`
 
 ## Usage
 
