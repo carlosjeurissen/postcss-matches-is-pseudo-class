@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^8.56.0
     version: 8.56.0
   eslint-config-ccb:
-    specifier: ^0.16.4
-    version: 0.16.4
+    specifier: ^0.16.5
+    version: 0.16.5
   postcss:
     specifier: ^8.4.35
     version: 8.4.35
@@ -1231,8 +1231,8 @@ packages:
       object.entries: 1.1.7
     dev: true
 
-  /eslint-config-ccb@0.16.4:
-    resolution: {integrity: sha512-jl3rP71XotolQH1VDu2rUZ1pb/DBHL4a1pY2g9DN9llltonw5IRUfS83wtBZ6AczRMXzToYnwjaBMoYT9Kl3GA==}
+  /eslint-config-ccb@0.16.5:
+    resolution: {integrity: sha512-EStgEL9pvA73Uyc7jPO7A63G+gN5X4bGPwzfaTk4JBCS6jcc47VmU5oabDTI5+RKDCluO09dDC6mXZJ+g0jFUA==}
     dependencies:
       eslint: 8.56.0
       eslint-config-airbnb: 19.0.4(eslint-plugin-import@2.29.1)(eslint-plugin-jsx-a11y@6.8.0)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.2)(eslint@8.56.0)
