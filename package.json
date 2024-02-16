@@ -1,0 +1,39 @@
+{
+  "name": "postcss-matches-is-pseudo-class",
+  "version": "1.0.0",
+  "description": "Postcss plugin which Converts :matches() pseudo classes into :is() and reverse.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "matches",
+    "is"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "watch": "vitest watch",
+    "lint-fix": "eslint *.js --fix"
+  },
+  "author": "Carlos Jeurissen",
+  "license": "MIT",
+  "repository": "carlosjeurissen/postcss-matches-is-pseudo-class",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.2.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-ccb": "^0.16.4",
+    "postcss": "^8.4.35",
+    "vitest": "^1.2.2"
+  },
+  "eslintConfig": {
+    "extends": "ccb",
+    "env": {
+      "es2022": true,
+      "node": true
+    }
+  }
+}
